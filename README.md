@@ -46,7 +46,7 @@ Build and run the benchmark for the quaternion module for SQIsign round 2 versio
 
     cd build
     make
-    ./src/quaternion//ref/generic/bench/sqisign_bench_quaternion 100 260 1
+    ./src/quaternion/ref/generic/bench/sqisign_bench_quaternion 100 260 1
 
 Where 100 is the number of runs for the benchmark, 260 being the average size of the input to the functions for NIST lvl1 we used for the benchmark.
 
